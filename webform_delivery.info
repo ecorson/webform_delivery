@@ -1,0 +1,8 @@
+name = Webform Delivery
+description = Allows scheduled delivery of new webform results to user selected email addresses
+dependencies[] = webform
+dependencies[] = mimemail
+dependencies[] = mailsystem
+package = webform
+core = 7.x
+files[] = webform_delivery.module
